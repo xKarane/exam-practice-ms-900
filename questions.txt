@@ -631,3 +631,126 @@ NOTE: Each correct selection is worth one point.
 - Infrastructure as a Service (IaaS) provides servers, virtual machines (VMs), storage, networks, and operating systems to customers.
 * Platform as a Service (PaaS) provides an environment for building, testing, and deploying software applications.
 * Software as a Service (SaaS) provides an environment that is centrally hosted and managed for customers.
+
+#QUESTION
+A company has an on-premises application server.
+The company wants to use some of the services in Microsoft 365 with the on-premises application server.
+You need to choose a cloud deployment model that meets the requirement.
+What should you choose?
+- Private
+* Hybrid
+- Public
+
+#QUESTION
+CompanyA, CompanyB, and CompanyC use cloud resources as shown in the following table.
+CompanyA Computing resources run on systems used by this company only
+CompanyB Computing resources run on systems that are shared with multiple companies
+CompanyC Cloud resources are integrated with an on-premises Exchange server
+Match each cloud model to the appropriate company.
+NOTE: Each correct match is worth one point.
+* Power Apps - PaaS
+* Microsoft 365 apps - Saas
+* Azure Virtual Machine - Iaas
+
+#QUESTION
+You need to identify the software as a service (SaaS), platform as a service (PaaS), and infrastructure as a service (IaaS) services provided by Microsoft 365.
+What type of cloud service model does each cloud service represent?
+Choose the correct Answers
+NOTE: Each correct selection is worth one point.
+* Correct answer 74A
+* Wrong answer 74B
+* Wrong answer 74C
+
+#QUESTION
+You are planning to deploy Microsoft 365 for a company.
+You need to determine which cloud services to use.
+Which cloud services should you use? Choose the correct Answers
+NOTE: Each correct selection is worth one point.
+* Use Microsoft Outlook on the web. - SaaS
+* Test Microsoft Insider Preview Branch versions of Windows software. - WaaS
+* Deploy virtual machines quickly. - IaaS
+
+#QUESTION
+For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+- Platform as a Service (PaaS) services include Office 365, Microsoft Intune, and Dynamics 365.
+* Infrastructure as a Service (laaS) enables users to build server-based IT workloads in the cloud.
+- Software as a Service (SaaS) consists of IT workloads that run on customer virtual machines.
+
+#QUESTION
+A company plans to migrate on-premises infrastructure to the cloud.
+What are three benefits of migrating to the cloud? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+- Reduce configuration requirements on desktop computers.
+- Reduce on-site network latency.
+* Automate data backup and disaster recovery.
+* Scale and extend applications.
+- Eliminate the cost of buying server hardware.
+
+#QUESTION
+A company is evaluating Microsoft cloud service offerings.
+Match each offering to the cloud service.
+For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+* Booking calendar - SaaS
+* Booking page - PaaS
+- Staff page - WaaS
+* Services page - IaaS
+
+#QUESTION
+A company is evaluating Microsoft Dynamics 365.
+Instructions: For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+* Microsoft Dynamics 365 provides a remote assistance solution.
+* Microsoft Dynamics 365 provides a customer relationship management solution.
+- Microsoft Dynamics 365 provides an endpoint protection security solution.
+
+#QUESTION
+A company is evaluating Microsoft cloud services.
+Instructions: For each of the following statement, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+- Microsoft Teams can run as a service on-premises.
+* Microsoft Exchange Server 2019 can run as a service on-premises.
+* Microsoft Bookings can run as a service in the cloud.
+
+#QUESTION
+Instructions: For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+* A cloud provider can provide maintenance and security protection for server hardware.
+* A cloud storage provider can include built-in redundancy and automatic logging.
+- A cloud provider can manage on-premises resource hardware.
+
+#QUESTION
+A company is evaluating Microsoft cloud service offerings.
+Match each offering to the cloud service.
+For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+* Microsoft Azure virtual network - IaaS
+* Microsoft Azure Logic Apps - PaaS
+* Microsoft Dynamics 365 - SaaS
+
+#QUESTION
+A company is investigating Microsoft cloud services.
+Instructions: For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+* Servers in a public cloud are owned and operated by the hosting company.
+* Storage in a public cloud is owned and operated by the hosting company.
+* Microsoft Azure is an example of a public cloud.
+
+#QUESTION
+You need to reduce the amount of time that the IT team spends on user support.
+What are three possible ways to achieve this goal? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+- Enable Microsoft Office 365 Customer Lockbox
+* Upgrade all client devices to Windows 10
+* Use Windows AutoPilot to deploy devices
+- Deploy Microsoft MyAnalytics to devices
+* Deploy Microsoft Office 365 Professional Plus to all client devices
+
+#QUESTION
+An organization plans to deploy Microsoft Office to all employees.
+You need to select the appropriate Office plans and minimize costs.
+For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+* Automatically install updates and new Features - Office Standard
+* Install on more than one laptop or mobile phone. - Office 365 ProPlus
