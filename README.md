@@ -1,6 +1,6 @@
-# MS Exam Practice App
+# Exam Practice App
 
-This is a lightweight quiz application to help you prepare for Microsoft certification exams (e.g., MS-900).
+This is a lightweight quiz application to help you prepare for Certification exams (e.g., MS-900).
 
 ## Features
 
