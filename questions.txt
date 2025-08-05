@@ -462,3 +462,172 @@ NOTE: Each correct selection is worth one point.
 * Microsoft Exchange
 - Microsoft Teams
 
+#QUESTION
+A company is moving to Microsoft Azure. Some applications cannot be moved.
+You need to identify which applications will remain in a hybrid environment after the migration.
+Which applications will remain in a hybrid environment?
+- applications that manage sensitive information
+- applications that use a USB-token device to control access
+* legacy applications that use a message-based interface
+- a new server that runs several line-of-business applications
+
+#QUESTION
+For each of the following statements, select if the statement is true.
+NOTE: Each correct selection is worth one point.
+* Microsoft cloud services offer significant Energy savings for Microsoft and its customers.
+- Lower costs, no hardware maintenance,near-unlimited scalability, and high reliability are all advantages of a private cloud.
+* Microsoft cloud services offer security options and have the ability to provision resources quickly.
+
+#QUESTION
+You are the Microsoft 365 administrator for a company.
+You must provide infrastructure recommendations. All proposed solutions must minimize costs.
+You need to identify the appropriate cloud model for the given scenarios.
+Choose wich Statement is correct
+NOTE: Each correct selection is worth one point.
+* Provide an on-demand sandbox Environment - Public Cloud
+* Provide failover capabilities between resources that you manage and resources in other regions. - Hybrid Cloud
+* Deploy virtual machines that supports USB devices. - Priavte Cloud
+
+#QUESTION
+You are the Microsoft 365 administrator for a company.
+The company runs SharePoint Server and Exchange Server in an on-premises datacenter. The site collection for the finance department is currently encrypted using third-party software.
+You need to move as many services to Microsoft 365 as possible.
+What should you do?
+* Migrate all SharePoint data and Exchange mailboxes to Microsoft 365.
+- Leave SharePoint data for finance department users on-premises. Migrate all other SharePoint data and Exchange mailboxes to Microsoft 365.
+- Leave mailboxes for finance department users on-premises. Migrate all other SharePoint data and Exchange mailboxes to Microsoft 365.
+- Leave SharePoint data and mailboxes for finance department users on-premises. Migrate all other SharePoint data and Exchange mailboxes to Microsoft 365.
+
+#QUESTION
+A company has an Exchange Server environment. The company plans to migrate to the cloud.
+You need to recommend a cloud model that meets the following requirements:
+✑ Upgrade the existing email environment
+✑ Minimize server and application maintenance
+Which model should you recommend?
+- Platform as a service (PaaS)
+- Windows as a service (WaaS)
+* Software as a service (SaaS)
+- Infrastructure as a service (IaaS)
+
+
+#QUESTION
+You are the Azure administrator for a company. The company uses only Platform as a Service (PaaS).
+You need to identify which solution components Microsoft must manage and which solution components your IT staff must manage.
+Choose wich each management owner to its component is true.
+NOTE: Each correct selection is worth one point.
+* Applications - IT Staff
+* Operating System Microsoft
+* Storage Microsoft
+* Application Data - IT Staff
+
+#QUESTION
+An organization is moving to Microsoft Azure and Microsoft 365.
+You need to classify the following components:
+✑ website hosting
+✑ a virtual machine that runs Linux
+✑ document storage that uses OneDrive for Business
+Choose wich Statement is correct
+NOTE: Each correct selection is worth one point.
+* website Hosting - PaaS
+* a virtual machine that runs Linux - Iaas
+* document storage that uses OneDrive for Business Saas
+
+#QUESTION
+For each of the following statements, select if the statement is true.
+NOTE: Each correct selection is worth one point
+* It is possible to connect cloud services to on-premises server resources.
+* Scaling cloud-hosted infrastructure components includes expanding Azure server resources and networking components.
+
+#QUESTION
+For each of the following statements, select if the statement is true.
+NOTE: Each correct selection is worth one point
+* Adopting cloud applications reduces the number of on-premises servers and services to manage.
+* For remote users, accessing applications stored in the cloud is easier than accessing applications stored on a company network.
+- A loss of internet connectivity will not significantly impact functionality for users accessing applications and services in the cloud.
+
+#QUESTION
+You are the Microsoft 365 administrator for a company that uses only on-premises resources. The company does not have a private cloud.
+You need to deploy cloud-based resources for the company that minimize costs.
+Choose which Statement is correct
+NOTE: Each correct selection is worth one point.
+Provide an on-demand sandbox environment. - Public
+Provide failover capabilities between local resources that you manage and resources in other regions. - Hybrid
+Deploy virtual machines that use custom peripheral devices. - Hybrid
+
+#QUESTION
+For each of the following statements, select if the statement is true.
+NOTE: Each correct selection is worth one point
+* Provide physical access to the hardware. - On Premise Only
+* Do not require patching of operating systems. - Cloud Only
+* Monitor usage of the file storage. - Both cloud and on premise
+
+#QUESTION
+For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+* You can secure web apps that are published through Azure AD Application Proxy by using Multi-Factor Authentication (MFA) in the cloud.
+- You can secure web apps that are published through Azure AD Application Proxy by using MFA Server on-premises.
+
+#QUESTION
+For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+- Using OneDrive for Business as a target for backups is an example of platform as a service (PaaS).
+* Using OneDrive for Business in Office 365 Excel Online to open Excel files is an example of software as a service (SaaS).
+
+#QUESTION
+You need to deploy an application to Microsoft Infrastructure as a Service (IaaS).
+Which three features are part of IaaS? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+- business analytics
+* real-time monitoring
+- operating system
+* servers and storage
+* firewall and network security
+
+#QUESTION
+For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+* Cloud computing delivers software on demand.
+* Cloud computing provides backup and recovery.
+* Cloud computing enables low-cost infrastructure scaling.
+
+#QUESTION
+Which type of cloud model provides access to Microsoft Office apps?
+- platform as a service (PaaS)
+- infrastructure as a service (IaaS)
+* software as a service (SaaS)
+
+#QUESTION
+For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+* Companies that have recently invested in hardware and software can use a hybrid cloud model.
+* Companies that have few on-premises resources can use a hybrid cloud model.
+
+#QUESTION
+For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+* You can purchase additional storage capacity on demand.
+- Cloud services are guaranteed to be available 100 percent of the time.
+* Cloud services use less energy than an enterprise on-premises datacenter.
+
+#QUESTION
+This question requires that you evaluate the underlined text to determine if it is correct.
+Microsoft 365 is a Platform as a service (PaaS).
+Review the underlined text. If it makes the statement correct, select `No change is needed.` If the statement is incorrect, select the answer choice that makes the statement correct.
+- Infrastructure as a service (IaaS)
+- Windows as a service (WaaS)
+* Software as a service (Saas)
+- No change is needed
+
+#QUESTION
+For each of the following statements, select Yes if the statement is true.
+NOTE: Each correct selection is worth one point.
+* Azure virtual machine is an infrastructure as a service (IaaS) solution.
+- SharePoint Online is an IaaS solution.
+- Microsoft Teams is an IaaS solution.
+
+#QUESTION
+For each of the following statements, select Yes if the statement is true
+NOTE: Each correct selection is worth one point.
+- Infrastructure as a Service (IaaS) provides servers, virtual machines (VMs), storage, networks, and operating systems to customers.
+* Platform as a Service (PaaS) provides an environment for building, testing, and deploying software applications.
+* Software as a Service (SaaS) provides an environment that is centrally hosted and managed for customers.
