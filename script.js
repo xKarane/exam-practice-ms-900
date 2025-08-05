@@ -18,6 +18,37 @@ document.addEventListener("DOMContentLoaded", () => {
   const resultScore = document.getElementById("result-score");
   const resultTime = document.getElementById("result-time");
 
+  function saveResult(score, total, duration) {
+    const results = JSON.parse(localStorage.getItem("quizResults") || "[]");
+    results.unshift({
+      date: new Date().toLocaleString(),
+      score,
+      total,
+      duration,
+    });
+    localStorage.setItem("quizResults", JSON.stringify(results.slice(0, 10))); // max 10 speichern
+  }
+
+  function loadResults() {
+    return JSON.parse(localStorage.getItem("quizResults") || "[]");
+  }
+
+  function displayResults() {
+    const results = loadResults();
+    const container = document.getElementById("past-results");
+    if (!container) return;
+    if (results.length === 0) {
+      container.innerHTML = "<p>No previous test results.</p>";
+      return;
+    }
+    let html = "<table><thead><tr><th>Date</th><th>Score</th><th>Time (s)</th></tr></thead><tbody>";
+    results.forEach(r => {
+      html += `<tr><td>${r.date}</td><td>${r.score} / ${r.total}</td><td>${r.duration}</td></tr>`;
+    });
+    html += "</tbody></table>";
+    container.innerHTML = html;
+  }
+
   startBtn.addEventListener("click", async () => {
     startScreen.classList.add("hidden");
     quizScreen.classList.remove("hidden");
@@ -94,6 +125,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const endTime = new Date();
     const duration = Math.floor((endTime - startTime) / 1000);
 
+    saveResult(correctCount, allQuestions.length, duration);
+
     resultScore.textContent = `You answered ${correctCount} out of ${allQuestions.length} questions correctly.`;
     resultTime.textContent = `Time taken: ${duration} seconds.`;
   }
@@ -133,4 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (current) questions.push(current);
     return questions;
   }
+
+  // Direkt beim Laden der Seite die alten Ergebnisse anzeigen
+  displayResults();
 });
