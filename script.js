@@ -1,3 +1,21 @@
+const startBtn = document.getElementById("start-btn");
+const startScreen = document.getElementById("start-screen");
+const quizScreen = document.getElementById("quiz-screen");
+
+startBtn.addEventListener("click", async () => {
+  console.log("Start button clicked");
+  startScreen.classList.add("hidden");
+  quizScreen.classList.remove("hidden");
+
+  try {
+    const res = await fetch("questions.txt");
+    const text = await res.text();
+    console.log("Loaded questions:", text.substring(0, 100));
+  } catch (e) {
+    console.error("Failed to load questions:", e);
+  }
+});
+
 let allQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
