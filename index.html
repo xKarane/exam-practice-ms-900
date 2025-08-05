@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MS Exam Practice</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -10,14 +10,14 @@
   <div class="container">
     <h1>MS Exam Practice</h1>
     <div id="start-screen">
-      <button onclick="startQuiz()">Start New Quiz</button>
+      <button id="start-btn">Start New Quiz</button>
     </div>
     <div id="quiz-screen" class="hidden">
       <div id="question-number"></div>
       <div id="question-text"></div>
       <div id="answers"></div>
-      <button id="check-button" onclick="checkAnswer()">Check Answer</button>
-      <button id="next-button" class="hidden" onclick="nextQuestion()">Next</button>
+      <button id="check-button">Check Answer</button>
+      <button id="next-button" class="hidden">Next</button>
     </div>
     <div id="result-screen" class="hidden">
       <h2>Quiz Summary</h2>
@@ -26,6 +26,8 @@
       <button onclick="location.reload()">Start Again</button>
     </div>
   </div>
+
+  <!-- Script ganz unten vor </body> laden -->
   <script src="script.js"></script>
 </body>
 </html>
