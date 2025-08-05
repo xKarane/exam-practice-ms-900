@@ -1,29 +1,66 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
   margin: 0;
-  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+
 .container {
-  max-width: 700px;
-  margin: auto;
-  background: #fff;
-  padding: 20px;
+  background-color: #1e1e1e;
+  padding: 20px 30px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 90vw;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
+
+h1, h2 {
+  text-align: center;
+}
+
+button {
+  background-color: #3a86ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px 5px 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2a66cc;
+}
+
 .hidden {
   display: none;
 }
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
+
+#answers label {
+  display: block;
+  margin: 8px 0;
   cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid transparent;
 }
+
+#answers input[type=checkbox] {
+  margin-right: 10px;
+}
+
 .correct {
-  background-color: #c8f7c5;
+  background-color: #2e7d32aa;
+  border-color: #2e7d32;
 }
-.incorrect {
-  background-color: #f8c6c6;
+
+.wrong {
+  background-color: #c62828aa;
+  border-color: #c62828;
 }
