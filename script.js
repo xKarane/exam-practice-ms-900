@@ -24,7 +24,7 @@ startBtn.addEventListener("click", async () => {
   startTime = new Date();
   selectedAnswers = [];
   currentQuestionIndex = 0;
-  renderPastResults();  // Anzeige der vergangenen Ergebnisse aktualisieren
+  renderPastResults();
   loadQuestion();
 });
 
@@ -152,7 +152,7 @@ function saveResult(result) {
   localStorage.setItem("quizResults", JSON.stringify(existing.slice(0, 10)));
 }
 
-// Zeigt vergangene Ergebnisse im Startbildschirm
+// Zeigt vergangene Ergebnisse im Startbildschirm schön formatiert und über volle Breite
 function renderPastResults() {
   const pastContainer = document.getElementById("past-results");
   const data = JSON.parse(localStorage.getItem("quizResults") || "[]");
@@ -164,21 +164,40 @@ function renderPastResults() {
     return;
   }
 
-  let table = `<h3>Past Results</h3><table><tr><th>Date</th><th>Score</th><th>Correct</th><th>Time (s)</th></tr>`;
-  data.forEach(res => {
-    table += `<tr>
-      <td>${res.date}</td>
-      <td>${res.score}%</td>
-      <td>${res.correct} / ${res.total}</td>
-      <td>${res.duration}</td>
-    </tr>`;
+  let table = `
+    <h3>Past Results</h3>
+    <table style="width: 100%; border-collapse: collapse; text-align: left;">
+      <thead>
+        <tr style="background-color: #222; color: white;">
+          <th style="padding: 8px; border: 1px solid #444;">Date</th>
+          <th style="padding: 8px; border: 1px solid #444;">Score</th>
+          <th style="padding: 8px; border: 1px solid #444;">Correct</th>
+          <th style="padding: 8px; border: 1px solid #444;">Time (s)</th>
+        </tr>
+      </thead>
+      <tbody>
+  `;
+
+  data.forEach((res, i) => {
+    const bgColor = i % 2 === 0 ? "#333" : "#222";
+    table += `
+      <tr style="background-color: ${bgColor}; color: white;">
+        <td style="padding: 8px; border: 1px solid #444;">${res.date}</td>
+        <td style="padding: 8px; border: 1px solid #444;">${res.score}%</td>
+        <td style="padding: 8px; border: 1px solid #444;">${res.correct} / ${res.total}</td>
+        <td style="padding: 8px; border: 1px solid #444;">${res.duration}</td>
+      </tr>
+    `;
   });
-  table += `</table>`;
+
+  table += `
+      </tbody>
+    </table>
+  `;
 
   pastContainer.innerHTML = table;
 }
 
-// Beim ersten Laden Seite Past Results anzeigen
 document.addEventListener("DOMContentLoaded", () => {
   renderPastResults();
 });
