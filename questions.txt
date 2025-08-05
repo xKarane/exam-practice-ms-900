@@ -1,9 +1,699 @@
 #QUESTION
-Your company plans to migrate from on-premises to a hybrid cloud deployment.
-You are required to make sure that the Microsoft platform used for the migration offers hybrid abilities.
-Which of the following options meet the requirement?
-- Microsoft Office Delve
-* Microsoft SharePoint
-- Microsoft Yammer
-* Microsoft Skype for Business
-- Microsoft Teams
+What is the purpose of example question 1?
+* Correct answer 1A
+- Wrong answer 1B
+- Wrong answer 1C
+- Wrong answer 1D
+
+#QUESTION
+What is the purpose of example question 2?
+* Correct answer 2A
+- Wrong answer 2B
+- Wrong answer 2C
+- Wrong answer 2D
+
+#QUESTION
+What is the purpose of example question 3?
+* Correct answer 3A
+- Wrong answer 3B
+- Wrong answer 3C
+- Wrong answer 3D
+
+#QUESTION
+What is the purpose of example question 4?
+* Correct answer 4A
+- Wrong answer 4B
+- Wrong answer 4C
+- Wrong answer 4D
+
+#QUESTION
+What is the purpose of example question 5?
+* Correct answer 5A
+- Wrong answer 5B
+- Wrong answer 5C
+- Wrong answer 5D
+
+#QUESTION
+What is the purpose of example question 6?
+* Correct answer 6A
+- Wrong answer 6B
+- Wrong answer 6C
+- Wrong answer 6D
+
+#QUESTION
+What is the purpose of example question 7?
+* Correct answer 7A
+- Wrong answer 7B
+- Wrong answer 7C
+- Wrong answer 7D
+
+#QUESTION
+What is the purpose of example question 8?
+* Correct answer 8A
+- Wrong answer 8B
+- Wrong answer 8C
+- Wrong answer 8D
+
+#QUESTION
+What is the purpose of example question 9?
+* Correct answer 9A
+- Wrong answer 9B
+- Wrong answer 9C
+- Wrong answer 9D
+
+#QUESTION
+What is the purpose of example question 10?
+* Correct answer 10A
+- Wrong answer 10B
+- Wrong answer 10C
+- Wrong answer 10D
+
+#QUESTION
+What is the purpose of example question 11?
+* Correct answer 11A
+- Wrong answer 11B
+- Wrong answer 11C
+- Wrong answer 11D
+
+#QUESTION
+What is the purpose of example question 12?
+* Correct answer 12A
+- Wrong answer 12B
+- Wrong answer 12C
+- Wrong answer 12D
+
+#QUESTION
+What is the purpose of example question 13?
+* Correct answer 13A
+- Wrong answer 13B
+- Wrong answer 13C
+- Wrong answer 13D
+
+#QUESTION
+What is the purpose of example question 14?
+* Correct answer 14A
+- Wrong answer 14B
+- Wrong answer 14C
+- Wrong answer 14D
+
+#QUESTION
+What is the purpose of example question 15?
+* Correct answer 15A
+- Wrong answer 15B
+- Wrong answer 15C
+- Wrong answer 15D
+
+#QUESTION
+What is the purpose of example question 16?
+* Correct answer 16A
+- Wrong answer 16B
+- Wrong answer 16C
+- Wrong answer 16D
+
+#QUESTION
+What is the purpose of example question 17?
+* Correct answer 17A
+- Wrong answer 17B
+- Wrong answer 17C
+- Wrong answer 17D
+
+#QUESTION
+What is the purpose of example question 18?
+* Correct answer 18A
+- Wrong answer 18B
+- Wrong answer 18C
+- Wrong answer 18D
+
+#QUESTION
+What is the purpose of example question 19?
+* Correct answer 19A
+- Wrong answer 19B
+- Wrong answer 19C
+- Wrong answer 19D
+
+#QUESTION
+What is the purpose of example question 20?
+* Correct answer 20A
+- Wrong answer 20B
+- Wrong answer 20C
+- Wrong answer 20D
+
+#QUESTION
+What is the purpose of example question 21?
+* Correct answer 21A
+- Wrong answer 21B
+- Wrong answer 21C
+- Wrong answer 21D
+
+#QUESTION
+What is the purpose of example question 22?
+* Correct answer 22A
+- Wrong answer 22B
+- Wrong answer 22C
+- Wrong answer 22D
+
+#QUESTION
+What is the purpose of example question 23?
+* Correct answer 23A
+- Wrong answer 23B
+- Wrong answer 23C
+- Wrong answer 23D
+
+#QUESTION
+What is the purpose of example question 24?
+* Correct answer 24A
+- Wrong answer 24B
+- Wrong answer 24C
+- Wrong answer 24D
+
+#QUESTION
+What is the purpose of example question 25?
+* Correct answer 25A
+- Wrong answer 25B
+- Wrong answer 25C
+- Wrong answer 25D
+
+#QUESTION
+What is the purpose of example question 26?
+* Correct answer 26A
+- Wrong answer 26B
+- Wrong answer 26C
+- Wrong answer 26D
+
+#QUESTION
+What is the purpose of example question 27?
+* Correct answer 27A
+- Wrong answer 27B
+- Wrong answer 27C
+- Wrong answer 27D
+
+#QUESTION
+What is the purpose of example question 28?
+* Correct answer 28A
+- Wrong answer 28B
+- Wrong answer 28C
+- Wrong answer 28D
+
+#QUESTION
+What is the purpose of example question 29?
+* Correct answer 29A
+- Wrong answer 29B
+- Wrong answer 29C
+- Wrong answer 29D
+
+#QUESTION
+What is the purpose of example question 30?
+* Correct answer 30A
+- Wrong answer 30B
+- Wrong answer 30C
+- Wrong answer 30D
+
+#QUESTION
+What is the purpose of example question 31?
+* Correct answer 31A
+- Wrong answer 31B
+- Wrong answer 31C
+- Wrong answer 31D
+
+#QUESTION
+What is the purpose of example question 32?
+* Correct answer 32A
+- Wrong answer 32B
+- Wrong answer 32C
+- Wrong answer 32D
+
+#QUESTION
+What is the purpose of example question 33?
+* Correct answer 33A
+- Wrong answer 33B
+- Wrong answer 33C
+- Wrong answer 33D
+
+#QUESTION
+What is the purpose of example question 34?
+* Correct answer 34A
+- Wrong answer 34B
+- Wrong answer 34C
+- Wrong answer 34D
+
+#QUESTION
+What is the purpose of example question 35?
+* Correct answer 35A
+- Wrong answer 35B
+- Wrong answer 35C
+- Wrong answer 35D
+
+#QUESTION
+What is the purpose of example question 36?
+* Correct answer 36A
+- Wrong answer 36B
+- Wrong answer 36C
+- Wrong answer 36D
+
+#QUESTION
+What is the purpose of example question 37?
+* Correct answer 37A
+- Wrong answer 37B
+- Wrong answer 37C
+- Wrong answer 37D
+
+#QUESTION
+What is the purpose of example question 38?
+* Correct answer 38A
+- Wrong answer 38B
+- Wrong answer 38C
+- Wrong answer 38D
+
+#QUESTION
+What is the purpose of example question 39?
+* Correct answer 39A
+- Wrong answer 39B
+- Wrong answer 39C
+- Wrong answer 39D
+
+#QUESTION
+What is the purpose of example question 40?
+* Correct answer 40A
+- Wrong answer 40B
+- Wrong answer 40C
+- Wrong answer 40D
+
+#QUESTION
+What is the purpose of example question 41?
+* Correct answer 41A
+- Wrong answer 41B
+- Wrong answer 41C
+- Wrong answer 41D
+
+#QUESTION
+What is the purpose of example question 42?
+* Correct answer 42A
+- Wrong answer 42B
+- Wrong answer 42C
+- Wrong answer 42D
+
+#QUESTION
+What is the purpose of example question 43?
+* Correct answer 43A
+- Wrong answer 43B
+- Wrong answer 43C
+- Wrong answer 43D
+
+#QUESTION
+What is the purpose of example question 44?
+* Correct answer 44A
+- Wrong answer 44B
+- Wrong answer 44C
+- Wrong answer 44D
+
+#QUESTION
+What is the purpose of example question 45?
+* Correct answer 45A
+- Wrong answer 45B
+- Wrong answer 45C
+- Wrong answer 45D
+
+#QUESTION
+What is the purpose of example question 46?
+* Correct answer 46A
+- Wrong answer 46B
+- Wrong answer 46C
+- Wrong answer 46D
+
+#QUESTION
+What is the purpose of example question 47?
+* Correct answer 47A
+- Wrong answer 47B
+- Wrong answer 47C
+- Wrong answer 47D
+
+#QUESTION
+What is the purpose of example question 48?
+* Correct answer 48A
+- Wrong answer 48B
+- Wrong answer 48C
+- Wrong answer 48D
+
+#QUESTION
+What is the purpose of example question 49?
+* Correct answer 49A
+- Wrong answer 49B
+- Wrong answer 49C
+- Wrong answer 49D
+
+#QUESTION
+What is the purpose of example question 50?
+* Correct answer 50A
+- Wrong answer 50B
+- Wrong answer 50C
+- Wrong answer 50D
+
+#QUESTION
+What is the purpose of example question 51?
+* Correct answer 51A
+- Wrong answer 51B
+- Wrong answer 51C
+- Wrong answer 51D
+
+#QUESTION
+What is the purpose of example question 52?
+* Correct answer 52A
+- Wrong answer 52B
+- Wrong answer 52C
+- Wrong answer 52D
+
+#QUESTION
+What is the purpose of example question 53?
+* Correct answer 53A
+- Wrong answer 53B
+- Wrong answer 53C
+- Wrong answer 53D
+
+#QUESTION
+What is the purpose of example question 54?
+* Correct answer 54A
+- Wrong answer 54B
+- Wrong answer 54C
+- Wrong answer 54D
+
+#QUESTION
+What is the purpose of example question 55?
+* Correct answer 55A
+- Wrong answer 55B
+- Wrong answer 55C
+- Wrong answer 55D
+
+#QUESTION
+What is the purpose of example question 56?
+* Correct answer 56A
+- Wrong answer 56B
+- Wrong answer 56C
+- Wrong answer 56D
+
+#QUESTION
+What is the purpose of example question 57?
+* Correct answer 57A
+- Wrong answer 57B
+- Wrong answer 57C
+- Wrong answer 57D
+
+#QUESTION
+What is the purpose of example question 58?
+* Correct answer 58A
+- Wrong answer 58B
+- Wrong answer 58C
+- Wrong answer 58D
+
+#QUESTION
+What is the purpose of example question 59?
+* Correct answer 59A
+- Wrong answer 59B
+- Wrong answer 59C
+- Wrong answer 59D
+
+#QUESTION
+What is the purpose of example question 60?
+* Correct answer 60A
+- Wrong answer 60B
+- Wrong answer 60C
+- Wrong answer 60D
+
+#QUESTION
+What is the purpose of example question 61?
+* Correct answer 61A
+- Wrong answer 61B
+- Wrong answer 61C
+- Wrong answer 61D
+
+#QUESTION
+What is the purpose of example question 62?
+* Correct answer 62A
+- Wrong answer 62B
+- Wrong answer 62C
+- Wrong answer 62D
+
+#QUESTION
+What is the purpose of example question 63?
+* Correct answer 63A
+- Wrong answer 63B
+- Wrong answer 63C
+- Wrong answer 63D
+
+#QUESTION
+What is the purpose of example question 64?
+* Correct answer 64A
+- Wrong answer 64B
+- Wrong answer 64C
+- Wrong answer 64D
+
+#QUESTION
+What is the purpose of example question 65?
+* Correct answer 65A
+- Wrong answer 65B
+- Wrong answer 65C
+- Wrong answer 65D
+
+#QUESTION
+What is the purpose of example question 66?
+* Correct answer 66A
+- Wrong answer 66B
+- Wrong answer 66C
+- Wrong answer 66D
+
+#QUESTION
+What is the purpose of example question 67?
+* Correct answer 67A
+- Wrong answer 67B
+- Wrong answer 67C
+- Wrong answer 67D
+
+#QUESTION
+What is the purpose of example question 68?
+* Correct answer 68A
+- Wrong answer 68B
+- Wrong answer 68C
+- Wrong answer 68D
+
+#QUESTION
+What is the purpose of example question 69?
+* Correct answer 69A
+- Wrong answer 69B
+- Wrong answer 69C
+- Wrong answer 69D
+
+#QUESTION
+What is the purpose of example question 70?
+* Correct answer 70A
+- Wrong answer 70B
+- Wrong answer 70C
+- Wrong answer 70D
+
+#QUESTION
+What is the purpose of example question 71?
+* Correct answer 71A
+- Wrong answer 71B
+- Wrong answer 71C
+- Wrong answer 71D
+
+#QUESTION
+What is the purpose of example question 72?
+* Correct answer 72A
+- Wrong answer 72B
+- Wrong answer 72C
+- Wrong answer 72D
+
+#QUESTION
+What is the purpose of example question 73?
+* Correct answer 73A
+- Wrong answer 73B
+- Wrong answer 73C
+- Wrong answer 73D
+
+#QUESTION
+What is the purpose of example question 74?
+* Correct answer 74A
+- Wrong answer 74B
+- Wrong answer 74C
+- Wrong answer 74D
+
+#QUESTION
+What is the purpose of example question 75?
+* Correct answer 75A
+- Wrong answer 75B
+- Wrong answer 75C
+- Wrong answer 75D
+
+#QUESTION
+What is the purpose of example question 76?
+* Correct answer 76A
+- Wrong answer 76B
+- Wrong answer 76C
+- Wrong answer 76D
+
+#QUESTION
+What is the purpose of example question 77?
+* Correct answer 77A
+- Wrong answer 77B
+- Wrong answer 77C
+- Wrong answer 77D
+
+#QUESTION
+What is the purpose of example question 78?
+* Correct answer 78A
+- Wrong answer 78B
+- Wrong answer 78C
+- Wrong answer 78D
+
+#QUESTION
+What is the purpose of example question 79?
+* Correct answer 79A
+- Wrong answer 79B
+- Wrong answer 79C
+- Wrong answer 79D
+
+#QUESTION
+What is the purpose of example question 80?
+* Correct answer 80A
+- Wrong answer 80B
+- Wrong answer 80C
+- Wrong answer 80D
+
+#QUESTION
+What is the purpose of example question 81?
+* Correct answer 81A
+- Wrong answer 81B
+- Wrong answer 81C
+- Wrong answer 81D
+
+#QUESTION
+What is the purpose of example question 82?
+* Correct answer 82A
+- Wrong answer 82B
+- Wrong answer 82C
+- Wrong answer 82D
+
+#QUESTION
+What is the purpose of example question 83?
+* Correct answer 83A
+- Wrong answer 83B
+- Wrong answer 83C
+- Wrong answer 83D
+
+#QUESTION
+What is the purpose of example question 84?
+* Correct answer 84A
+- Wrong answer 84B
+- Wrong answer 84C
+- Wrong answer 84D
+
+#QUESTION
+What is the purpose of example question 85?
+* Correct answer 85A
+- Wrong answer 85B
+- Wrong answer 85C
+- Wrong answer 85D
+
+#QUESTION
+What is the purpose of example question 86?
+* Correct answer 86A
+- Wrong answer 86B
+- Wrong answer 86C
+- Wrong answer 86D
+
+#QUESTION
+What is the purpose of example question 87?
+* Correct answer 87A
+- Wrong answer 87B
+- Wrong answer 87C
+- Wrong answer 87D
+
+#QUESTION
+What is the purpose of example question 88?
+* Correct answer 88A
+- Wrong answer 88B
+- Wrong answer 88C
+- Wrong answer 88D
+
+#QUESTION
+What is the purpose of example question 89?
+* Correct answer 89A
+- Wrong answer 89B
+- Wrong answer 89C
+- Wrong answer 89D
+
+#QUESTION
+What is the purpose of example question 90?
+* Correct answer 90A
+- Wrong answer 90B
+- Wrong answer 90C
+- Wrong answer 90D
+
+#QUESTION
+What is the purpose of example question 91?
+* Correct answer 91A
+- Wrong answer 91B
+- Wrong answer 91C
+- Wrong answer 91D
+
+#QUESTION
+What is the purpose of example question 92?
+* Correct answer 92A
+- Wrong answer 92B
+- Wrong answer 92C
+- Wrong answer 92D
+
+#QUESTION
+What is the purpose of example question 93?
+* Correct answer 93A
+- Wrong answer 93B
+- Wrong answer 93C
+- Wrong answer 93D
+
+#QUESTION
+What is the purpose of example question 94?
+* Correct answer 94A
+- Wrong answer 94B
+- Wrong answer 94C
+- Wrong answer 94D
+
+#QUESTION
+What is the purpose of example question 95?
+* Correct answer 95A
+- Wrong answer 95B
+- Wrong answer 95C
+- Wrong answer 95D
+
+#QUESTION
+What is the purpose of example question 96?
+* Correct answer 96A
+- Wrong answer 96B
+- Wrong answer 96C
+- Wrong answer 96D
+
+#QUESTION
+What is the purpose of example question 97?
+* Correct answer 97A
+- Wrong answer 97B
+- Wrong answer 97C
+- Wrong answer 97D
+
+#QUESTION
+What is the purpose of example question 98?
+* Correct answer 98A
+- Wrong answer 98B
+- Wrong answer 98C
+- Wrong answer 98D
+
+#QUESTION
+What is the purpose of example question 99?
+* Correct answer 99A
+- Wrong answer 99B
+- Wrong answer 99C
+- Wrong answer 99D
+
+#QUESTION
+What is the purpose of example question 100?
+* Correct answer 100A
+- Wrong answer 100B
+- Wrong answer 100C
+- Wrong answer 100D
