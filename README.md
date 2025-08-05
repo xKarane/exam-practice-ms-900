@@ -2,7 +2,7 @@
 
 This is a lightweight quiz application to help you prepare for Certification exams (e.g., MS-900).
 
-Actual Questions are for MS-900 (71 Questions sofar and updating)
+Actual Questions are for MS-900 (85 Questions sofar and updating)
 
 ## Features
 
