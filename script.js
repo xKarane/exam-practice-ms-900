@@ -1,88 +1,132 @@
-let questions = [];
-let currentIndex = 0;
-let correctCount = 0;
+let allQuestions = [];
+let currentQuestionIndex = 0;
+let score = 0;
 let startTime;
+let selectedAnswers = [];
 
-async function loadQuestions() {
+const startBtn = document.getElementById("start-btn");
+const quizScreen = document.getElementById("quiz-screen");
+const startScreen = document.getElementById("start-screen");
+const resultScreen = document.getElementById("result-screen");
+const questionNumber = document.getElementById("question-number");
+const questionText = document.getElementById("question-text");
+const answersContainer = document.getElementById("answers");
+const checkBtn = document.getElementById("check-button");
+const nextBtn = document.getElementById("next-button");
+const resultScore = document.getElementById("result-score");
+const resultTime = document.getElementById("result-time");
+
+startBtn.addEventListener("click", async () => {
+  startScreen.classList.add("hidden");
+  quizScreen.classList.remove("hidden");
+  const data = await fetchQuestions();
+  allQuestions = shuffleArray(data).slice(0, 50);
+  startTime = new Date();
+  loadQuestion();
+});
+
+checkBtn.addEventListener("click", () => {
+  const current = allQuestions[currentQuestionIndex];
+  const selected = Array.from(document.querySelectorAll("input[type=checkbox]:checked"))
+    .map(cb => cb.value);
+
+  selectedAnswers.push(selected);
+
+  document.querySelectorAll("input[type=checkbox]").forEach(cb => {
+    cb.disabled = true;
+    if (current.correct.includes(cb.value)) {
+      cb.parentElement.classList.add("correct");
+    } else if (cb.checked) {
+      cb.parentElement.classList.add("wrong");
+    }
+  });
+
+  checkBtn.classList.add("hidden");
+  nextBtn.classList.remove("hidden");
+});
+
+nextBtn.addEventListener("click", () => {
+  currentQuestionIndex++;
+  if (currentQuestionIndex < allQuestions.length) {
+    loadQuestion();
+  } else {
+    finishQuiz();
+  }
+});
+
+function loadQuestion() {
+  const current = allQuestions[currentQuestionIndex];
+  questionNumber.textContent = `Question ${currentQuestionIndex + 1} of ${allQuestions.length}`;
+  questionText.textContent = current.text;
+
+  answersContainer.innerHTML = "";
+  current.options.forEach((opt, index) => {
+    const label = document.createElement("label");
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.value = opt;
+    label.appendChild(checkbox);
+    label.append(` ${opt}`);
+    answersContainer.appendChild(label);
+  });
+
+  checkBtn.classList.remove("hidden");
+  nextBtn.classList.add("hidden");
+}
+
+function finishQuiz() {
+  quizScreen.classList.add("hidden");
+  resultScreen.classList.remove("hidden");
+
+  let correctCount = 0;
+  allQuestions.forEach((q, i) => {
+    const selected = selectedAnswers[i];
+    const correct = q.correct;
+    if (arraysEqual(new Set(selected), new Set(correct))) {
+      correctCount++;
+    }
+  });
+
+  const endTime = new Date();
+  const duration = Math.floor((endTime - startTime) / 1000);
+
+  resultScore.textContent = `You answered ${correctCount} out of ${allQuestions.length} questions correctly.`;
+  resultTime.textContent = `Time taken: ${duration} seconds.`;
+}
+
+function arraysEqual(a, b) {
+  return a.size === b.size && [...a].every(value => b.has(value));
+}
+
+function shuffleArray(array) {
+  return array.sort(() => Math.random() - 0.5);
+}
+
+async function fetchQuestions() {
   const res = await fetch("questions.txt");
   const text = await res.text();
-  const blocks = text.trim().split(/#QUESTION\s*/).filter(Boolean);
-  return blocks.map(block => {
-    const lines = block.trim().split(/\n/);
-    const question = lines[0];
-    const answers = lines.slice(1).map(line => {
-      return {
-        text: line.slice(2).trim(),
-        correct: line.startsWith("*")
-      };
-    });
-    return { question, answers };
-  });
+  return parseQuestions(text);
 }
 
-function startQuiz() {
-  document.getElementById("start-screen").classList.add("hidden");
-  document.getElementById("quiz-screen").classList.remove("hidden");
-  startTime = new Date();
-  loadQuestions().then(qs => {
-    questions = qs.sort(() => 0.5 - Math.random()).slice(0, 50);
-    showQuestion();
-  });
-}
+function parseQuestions(text) {
+  const lines = text.split("\n");
+  const questions = [];
+  let current = null;
 
-function showQuestion() {
-  const q = questions[currentIndex];
-  document.getElementById("question-number").textContent = \`Question \${currentIndex + 1}/50\`;
-  document.getElementById("question-text").textContent = q.question;
-  const container = document.getElementById("answers");
-  container.innerHTML = "";
-  q.answers.forEach((a, i) => {
-    const div = document.createElement("div");
-    div.innerHTML = \`<input type="checkbox" id="a\${i}"><label for="a\${i}"> \${a.text}</label>\`;
-    container.appendChild(div);
-  });
-  document.getElementById("check-button").classList.remove("hidden");
-  document.getElementById("next-button").classList.add("hidden");
-}
-
-function checkAnswer() {
-  const q = questions[currentIndex];
-  const inputs = document.querySelectorAll("#answers input");
-  inputs.forEach((input, i) => {
-    const label = input.nextElementSibling;
-    if (input.checked && !q.answers[i].correct) {
-      label.classList.add("incorrect");
+  for (const line of lines) {
+    if (line.startsWith("#QUESTION")) {
+      if (current) questions.push(current);
+      current = { text: "", options: [], correct: [] };
+    } else if (line.startsWith("* ")) {
+      current.options.push(line.substring(2));
+      current.correct.push(line.substring(2));
+    } else if (line.startsWith("- ")) {
+      current.options.push(line.substring(2));
+    } else if (line.trim()) {
+      current.text += (current.text ? " " : "") + line.trim();
     }
-    if (q.answers[i].correct) {
-      label.classList.add("correct");
-    }
-  });
-
-  const allCorrect = q.answers.every((a, i) => {
-    return a.correct === inputs[i].checked;
-  });
-  if (allCorrect) correctCount++;
-
-  document.getElementById("check-button").classList.add("hidden");
-  document.getElementById("next-button").classList.remove("hidden");
-}
-
-function nextQuestion() {
-  currentIndex++;
-  if (currentIndex < 50) {
-    showQuestion();
-  } else {
-    showResult();
   }
-}
 
-function showResult() {
-  document.getElementById("quiz-screen").classList.add("hidden");
-  document.getElementById("result-screen").classList.remove("hidden");
-  const endTime = new Date();
-  const duration = Math.round((endTime - startTime) / 1000);
-  const minutes = Math.floor(duration / 60);
-  const seconds = duration % 60;
-  document.getElementById("result-score").textContent = \`You answered \${correctCount} out of 50 correctly.\`;
-  document.getElementById("result-time").textContent = \`Time taken: \${minutes}m \${seconds}s\`;
+  if (current) questions.push(current);
+  return questions;
 }
