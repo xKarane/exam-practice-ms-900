@@ -1,142 +1,195 @@
 #QUESTION
-What is the purpose of example question 1?
-* Correct answer 1A
-- Wrong answer 1B
-- Wrong answer 1C
-- Wrong answer 1D
+Your company plans to migrate from on-premises to a hybrid cloud deployment.
+You are required to make sure that the Microsoft platform used for the migration offers hybrid abilities.
+Which of the following options meet the requirement?
+- Microsoft Office Delve
+* Microsoft Sharepoint
+- Microsoft Yammer
+* Microsoft Skype for Business
+- Microsoft Teams
 
 #QUESTION
-What is the purpose of example question 2?
-* Correct answer 2A
-- Wrong answer 2B
-- Wrong answer 2C
-- Wrong answer 2D
+You need to consider the big spreaded segment to establish whether it is accurate.
+ALL APPLICATIONS will remain in a hybrid environment after migrating to Microsoft Azure.
+Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+- No adjustment required.
+- Applications that manage sensitive information
+- Applications where access requires a USB-token device
+* All legacy applications
 
 #QUESTION
-What is the purpose of example question 3?
-* Correct answer 3A
-- Wrong answer 3B
-- Wrong answer 3C
-- Wrong answer 3D
+Your company plans to move their Server environment to the cloud.
+You have been tasked with identifying a cloud model that allows for the current email environment to be upgraded, while also reducing server and application maintenance.
+You need to make sure that the requirements are met.
+Solution: You recommend the Platform as a service (PaaS) model.
+Does the solution meet the goal?
+- Yes
+* No
 
 #QUESTION
-What is the purpose of example question 4?
-* Correct answer 4A
-- Wrong answer 4B
-- Wrong answer 4C
-- Wrong answer 4D
+Your company plans to move their Server environment to the cloud.
+You have been tasked with identifying a cloud model that allows for the current email environment to be upgraded, while also reducing server and application maintenance.
+You need to make sure that the requirements are met.
+Solution: You recommend the Infrastructure as a service (IaaS) model.
+Does the solution meet the goal?
+- Yes
+* No
 
 #QUESTION
-What is the purpose of example question 5?
-* Correct answer 5A
-- Wrong answer 5B
-- Wrong answer 5C
-- Wrong answer 5D
+Your company plans to move their Server environment to the cloud.
+You have been tasked with identifying a cloud model that allows for the current email environment to be upgraded, while also reducing server and application maintenance.
+You need to make sure that the requirements are met.
+Solution: You recommend the Software as a service (SaaS) model.
+Does the solution meet the goal?
+* Yes
+- No
 
 #QUESTION
-What is the purpose of example question 6?
-* Correct answer 6A
-- Wrong answer 6B
-- Wrong answer 6C
-- Wrong answer 6D
+Your company makes use of Platform as a Service (PaaS) for their Azure solution.
+Which of the following options are components that your IT employees are responsible for?
+- Networks.
+- Databases.
+* Applications.
+- Servers.
 
 #QUESTION
-What is the purpose of example question 7?
-* Correct answer 7A
-- Wrong answer 7B
-- Wrong answer 7C
-- Wrong answer 7D
+Your company makes use of Platform as a Service (PaaS) for their Azure solution.
+Which of the following options are components that Microsoft are responsible for? (Choose all that apply).
+* Storage.
+* Databases.
+- Applications.
+* Operating system.
 
 #QUESTION
-What is the purpose of example question 8?
-* Correct answer 8A
-- Wrong answer 8B
-- Wrong answer 8C
-- Wrong answer 8D
+Your company is planning to migrate to Microsoft Azure and Microsoft 365.
+You are required to identify a cloud service that allows for website hosting.
+Which of the following is the model you should choose?
+- Software as a Service (SaaS)
+* Platform as a Service (PaaS)
+- Infrastructure as a Service (IaaS)
+- Container as a Service (CaaS)
 
 #QUESTION
-What is the purpose of example question 9?
-* Correct answer 9A
-- Wrong answer 9B
-- Wrong answer 9C
-- Wrong answer 9D
+Your company is planning to migrate to Microsoft Azure and Microsoft 365.
+You are required to identify a cloud service that allows for the deployment of a Linux virtual machine.
+Which of the following is the model you should choose?
+- Software as a Service (SaaS)
+- Platform as a Service (PaaS)
+* Infrastructure as a Service (IaaS)
+- Container as a Service (CaaS)
 
 #QUESTION
-What is the purpose of example question 10?
-* Correct answer 10A
-- Wrong answer 10B
-- Wrong answer 10C
-- Wrong answer 10D
+Your company has a Microsoft 365 subscription.
+You have been tasked making sure that the IT department users can obtain Office 365 preview features prior to it being deployed to the rest of the company's users.
+Which of the following are the two actions that would meet your goal?
+- Instruct all users to sign up
+for Office Insider.
+* Instruct IT users to sign up
+for Office Insider.
+* Set the update preference to
+Targeted release for selected users in
+the organizational profile.
+- Set the update preference to Targeted
+release for everyone in the
+organizational profile.
+- Set the update preference to
+Standard in the organizational
+profile.
 
 #QUESTION
-What is the purpose of example question 11?
-* Correct answer 11A
-- Wrong answer 11B
-- Wrong answer 11C
-- Wrong answer 11D
+You need to consider the big spreaded segment to establish whether it is accurate.
+To ensure that when a new Microsoft Word feature is available for worker to install as soon as it becomes available, you should subscribe to the TARGETED RELEASE channel.
+Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+* No adjustment required.
+- Standard release
+- Semi-annual
+- Annual
 
 #QUESTION
-What is the purpose of example question 12?
-* Correct answer 12A
-- Wrong answer 12B
-- Wrong answer 12C
-- Wrong answer 12D
+You are employed as a Microsoft 365 administrator. Your company plans to make use of MyAnalytics.
+You need to identify the different features of MyAnalytics and Workspace Analytics.
+Which of the following are features of MyAnalytics? (Choose all that apply.)
+- It can only be acquired as an added reference-on license.
+- It provides team work and collaboration metrics.
+- It is included in the Office 365 ProPlus license.
+* It provides employee work and collaboration metrics
 
 #QUESTION
-What is the purpose of example question 13?
-* Correct answer 13A
-- Wrong answer 13B
-- Wrong answer 13C
-- Wrong answer 13D
+Your company has a Microsoft Office 365 subscription.
+As an administrator for this subscription, you are educating users on which component to use to register their personal home device with the company.
+Which of the following is the component that should be used?
+- Microsoft Azure AD Identity Protection
+* Enterprise Mobility + Security
+- Microsoft Teams
+- Microsoft Yammer
 
 #QUESTION
-What is the purpose of example question 14?
-* Correct answer 14A
-- Wrong answer 14B
-- Wrong answer 14C
-- Wrong answer 14D
+Your company has a Microsoft Office 365 subscription.
+As an administrator for this subscription, you are educating new users on which component to use for audio and visual communications with colleagues.
+Which of the following is the component that should be used?
+- Microsoft Exchange Online
+- Enterprise Mobility + Security
+* Microsoft Teams
+- Microsoft SharePoint Online
 
 #QUESTION
-What is the purpose of example question 15?
-* Correct answer 15A
-- Wrong answer 15B
-- Wrong answer 15C
-- Wrong answer 15D
+Your company plans to acquire a Microsoft 365 subscription.
+One of the services included in the subscription is described as a cloud service that allows you to do the following:
+✑ Store and protect files.
+✑ Share files.
+✑ Make use of an app or web-browser to access files from anywhere.
+✑ Restore files to an earlier date and time.
+Which of the following is the service being described above?
+- Office 365 Pro Plus.
+- Microsoft Yammer.
+- Microsoft Office Delve.
+* Microsoft OneDrive for Business.
 
 #QUESTION
-What is the purpose of example question 16?
-* Correct answer 16A
-- Wrong answer 16B
-- Wrong answer 16C
-- Wrong answer 16D
+Your company plans to acquire a Microsoft 365 subscription.
+One of the services included in the subscription is described as a private social network that can be used to effectively sort out support problems. It can also be used to collect feedback on projects and documents.
+Which of the following is the service being described above?
+- Microsoft Teams.
+* Microsoft Yammer.
+- Microsoft Office Delve.
+- Microsoft SharePoint Online.
 
 #QUESTION
-What is the purpose of example question 17?
-* Correct answer 17A
-- Wrong answer 17B
-- Wrong answer 17C
-- Wrong answer 17D
+Your company intends to deploy a number of Microsoft Surface devices that run Windows 10, using Windows AutoPilot.
+You have been tasked with preparing the devices for the deployment by importing a CSV file via the Microsoft 365 Device Management portal.
+Which of the following combinations of blades will help you achieve your goal?
+* The Dashboard and Device Configuration blades.
+- The Device Enrollment and Devices blades.
+- The Device Enrollment and Devices Compliance blades.
+- The Device Compliance and Device Configuration blades.
 
 #QUESTION
-What is the purpose of example question 18?
-* Correct answer 18A
-- Wrong answer 18B
-- Wrong answer 18C
-- Wrong answer 18D
+Your company has a Microsoft Office 365 subscription.
+As an administrator for this subscription, you have been tasked with recommending a solution that will allow users to make use of unsuited applications on their
+Windows 10 devices.
+Which of the following should you recommend?
+- Azure AD Connect.
+- Configuration Manager.
+- Windows AutoPilot.
+* Windows Virtual Desktop.
 
 #QUESTION
-What is the purpose of example question 19?
-* Correct answer 19A
-- Wrong answer 19B
-- Wrong answer 19C
-- Wrong answer 19D
+Your company has a Microsoft Office 365 subscription.
+As an administrator for this subscription, you have been tasked with recommending a solution that forces cloud-based applications to use the same credentials as on-premises applications.
+Which of the following should you recommend?
+* Azure AD Connect
+- Configuration Manager.
+- Windows AutoPilot.
+- Azure AD Application Proxy.
 
 #QUESTION
-What is the purpose of example question 20?
-* Correct answer 20A
-- Wrong answer 20B
-- Wrong answer 20C
-- Wrong answer 20D
+Your company has a Microsoft Office 365 subscription.
+As an administrator for this subscription, you have been tasked with recommending a solution that prohibits users from copying corporate information from managed applications installed on unmanaged devices.
+Which of the following should you recommend?
+- Windows Virtual Desktop.
+* Microsoft Intune.
+- Windows AutoPilot.
+- Azure AD Application Proxy.
 
 #QUESTION
 What is the purpose of example question 21?
