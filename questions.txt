@@ -192,561 +192,273 @@ Which of the following should you recommend?
 - Azure AD Application Proxy.
 
 #QUESTION
-What is the purpose of example question 21?
-* Correct answer 21A
-- Wrong answer 21B
-- Wrong answer 21C
-- Wrong answer 21D
+You have recently made use of Windows Autopilot to deploy Windows 10 devices in your company's environment.
+You have been asked to make sure that data that stored in OneDrive for Business is available to users from remote locations.
+Solution: You enable Microsoft Azure AD multi-factor authentication for the users.
+Does the solution meet the goal?
+- Yes
+* No
+
+#QUESTION
+You have recently made use of Windows Autopilot to deploy Windows 10 devices in your company's environment.
+You have been asked to make sure that data that stored in OneDrive for Business is available to users from remote locations.
+Solution: You enroll the devices in Microsoft Intune.
+Does the solution meet the goal?
+- Yes
+* No
+
+#QUESTION
+You have recently made use of Windows Autopilot to deploy Windows 10 devices in your company's environment.
+You have been asked to make sure that data that stored in OneDrive for Business is available to users from remote locations.
+Solution: You inform users that they should use their Microsoft Azure AD credentials to sign in to their devices.
+Does the solution meet the goal?
+* Yes
+- No
+
+#QUESTION
+Your company makes use of Microsoft 365 in their environment.
+You have been tasked with making sure that admin roles are protected. The feature you use should achieve this by requiring approvals.
+Which of the following is a feature you should use?
+- Mobile application protection policy.
+- Microsoft Azure AD Identity Protection.
+* Microsoft Azure AD Privilege Identity Protection. Most Voted
+- Microsoft Azure AD Conditional Access.
+
+#QUESTION
+Your company makes use of Microsoft 365 in their environment.
+You have been tasked with making sure that members of the Global Administrators group are protected. The feature you use should achieve this by making use of dynamic risk profiles.
+Which of the following is a feature you should use?
+- Mobile application protection policy.
+- Device configuration policy.
+* Microsoft Azure AD Privilege Identity Protection.
+- Microsoft Azure AD Conditional Access.
+
+#QUESTION
+You have been tasked with deploying Microsoft 365 for your company in a hybrid configuration.
+You want to make sure that a smart card can be used by staff for authentication purposes.
+Solution: You configure the use of password hash synchronization with single-on as the hybrid identity solution.
+Does the solution meet the goal?
+- Yes
+* No
+
+#QUESTION
+You have been tasked with deploying Microsoft 365 for your company in a hybrid configuration.
+You want to make sure that a smart card can be used by staff for authentication purposes.
+Solution: You configure the use of pass-through authentication and single sign-on as the hybrid identity solution.
+Does the solution meet the goal?
+- Yes
+* No
+
+#QUESTION
+You have been tasked with deploying Microsoft 365 for your company in a hybrid configuration.
+You want to make sure that a smart card can be used by staff for authentication purposes.
+Solution: You configure the use of Active Directory Federation Services (AD FS) as the hybrid identity solution.
+Does the solution meet the goal?
+* Yes
+- No
+
+#QUESTION
+You need to consider the underlined segment to establish whether it is accurate.
+To retrieve data for employees who request personal data under General Data Protection Regulation (GDPR) guidelines, you have to create a GDPR assessment.
+Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+What should you do?
+- No adjustment required
+- mobile application protection policy
+- device configuration policy
+* data subject request case
+
+#QUESTION
+You need to consider the HIGHLIGHTED segment to establish whether it is accurate.
+You are a Microsoft 365 administrator for a company whose employees are allowed to access corporate information located in the cloud via their personal devices.
+You have been tasked with making sure that employees are prohibited from copying this information to their personal OneDrive folders.
+You should make use of INTUNE APP PROTECTION.
+Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+* No adjustment required
+- Information Rights Management
+- Microsoft Azure AD Privilege Identity Protection
+- Microsoft Azure AD Identity Protection
+
+#QUESTION
+Your company has a Microsoft Office 365 ProPlus subscription.
+You are required to make use of Microsoft Azure Information Protection for document classification and protection.
+Which of the following options should you use to achieve your goal?
+* Add an Azure Subscription to you Microsoft Tenant
+- Enable the default Microsoft Azure AD Privilege Identity Protection Policy
+- Install the Azure Protection client
+- Create a custom Azure Information Protection Policy with the Confidential Label
+* Enable the default Azure Information Protection Policy
+
+#QUESTION
+Your company has a Microsoft Office 365 subscription.
+You have been tasked with removing customer information in compliance with General Data Protection Regulation (GDPR), after the customer generated data subject request (DSR). You want to make sure that legal holds are placed on relevant information if the opportunity arises.
+You want to start searching for the client's information by using Content Search eDiscovery.
+Which of the following applications can be searched with this method? (Choose two.)
+- Microsoft PowerApps
+* Microsoft Outlook
+- Microsoft Access
+* Microsoft SharePoint Online
+
+#QUESTION
+You have been tasked with configuring a data governance strategy that allows for data classification. It should also allow for these classifications to be enforced.
+Which of the following should form part of your strategy? (Choose two.)
+- Apply Microsoft SharePoint permissions.
+* Publish labels.
+- Configure Microsoft Outlook Mail Tips.
+- Apply supervision policies.
+* Apply retention policies.
+- Apply preservation policies.
+
+#QUESTION
+Your company has a Microsoft Office 365 subscription.
+As an administrator for this subscription, you are required to configure the use of a cloud security feature that allows for emails and documents to be classified and labeled.
+Which of the following is the feature you should use?
+* Microsoft Azure Information Protection.
+- Microsoft Azure AD Identity Protection.
+- Microsoft Azure AD Privilege Identity Protection.
+- Intune App Protection.
+
+#QUESTION
+After acquiring a Microsoft 365 E5 subscription, you are tasked with applying security features.
+You are currently configuring a security feature that allows you to control how a Microsoft support engineer accesses information during a help session.
+Which of the following is the feature you are configuring?
+* Customer Lockbox.
+- Data Governance.
+- Data Loss Prevention.
+- Microsoft Office 365 Advanced Threat Protection.
+
+#QUESTION
+After acquiring a Microsoft 365 E5 subscription, you are tasked with applying security features.
+You are currently configuring a security feature that allows you to protect against unidentified malware, viruses, and malicious URLs.
+Which of the following is the feature you are configuring?
+- Microsoft Azure AD Identity Protection.
+- Data Governance.
+- Microsoft Azure AD Conditional Access.
+* Microsoft Office 365 Advanced Threat Protection.
+
+#QUESTION
+Your company is changing their existing IT environment to Microsoft 365.
+Which of the following are benefits of the change?
+* Predictable Microsoft licensing costs
+- Decreased service scalability
+* Increased service scalability
+* Decreased on-premises infrastructure maintenance
+
+#QUESTION
+Your company has a Microsoft Office 365 subscription.
+As an administrator for this subscription, you have been tasked with acquiring added licenses. You do, however, need to be assigned the necessary admin role.
+Which of the following are admin roles that could achieve your goal?
+* Billing Admin role
+- User Admin role
+* Global Admin role
+- Helpdesk Admin role
+
+#QUESTION
+You need to consider the underlined segment to establish whether it is accurate.
+You have been tasked with acquiring Microsoft 365 Enterprise licenses for your organization.
+You should contact a Cloud Solution Provider (CSP) or subscribe to a Microsoft Enterprise Agreement (EA).
+Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+Which two options can you use? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+* No adjustment required
+- contact a Cloud Solution Provider (CSP) or use a company credit card via the Microsoft website
+- subscribe to a Microsoft Enterprise Agreement (EA) or visit a Microsoft retail store
+- use a company credit card via the Microsoft website or visit a Microsoft retail store subscription from
+
+#QUESTION
+Your company has a Microsoft 365 subscription.
+After a Microsoft 365 outage, the Service Health Dashboard indicates no issues with the service.
+You check the Service Health Dashboard and observe that the service is healthy.
+You then access the Post-Incident Review (PIR).
+Which of the following is the maximum time, after an incident has been resolved, that you have to wait for a preliminary Post-Incident Review (PIR) to be delivered via your Service Health Dashboard?
+- 12 hours.
+- 24 hours.
+* 48 hours.
+- 5 business days.
+
+#QUESTION
+A retail company is planning to upgrade their Windows 7 point-of-sale terminals to Windows 10.
+You have been informed that the terminals should only be upgraded again after a minimum of five years. Your solution has to allow for the scheduling of upgrades and updates to be executed consistently for al devices, while also keeping costs to a minimum.
+Which of the following is the version of windows you should upgrade to?
+- Windows 10 Home
+- Windows 10 Pro
+- Windows 10 Enterprise
+* Windows 10 Enterprise LTSC
+
+#QUESTION
+A retail company is planning to upgrade their Windows 7 point-of-sale terminals to Windows 10.
+You have been informed that the terminals should only be upgraded again after a minimum of five years. Your solution has to allow for the scheduling of upgrades and updates to be executed consistently for al devices, while also keeping costs to a minimum.
+Which of the following is the servicing tool that you should use?
+- Windows Autopilot
+* Windows Server Update Services
+- Microsoft Intune
+- Azure AD Connect
+
+#QUESTION
+You need to consider the HIGHLIGHTED segment to establish whether it is accurate.
+Your company has a Microsoft Office 365 subscription.
+As an administrator for this subscription, you want to check what the repercussions are if the availability terms of the Microsoft Office 365 services are not satisfied.
+You ANALYZE THE SERVICE LEVEL AGREEMENT.
+Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+* No adjustment required.
+- analyze the Microsoft Cloud agreement
+- access Data Governance
+- analyze the Microsoft Enterprise agreement
+
+#QUESTION
+You have been tasked with deploying Microsoft Office to company using a subscription-based licensing model.
+The version of Office you deploy should allow for Office application settings to be enforced via group policy.
+Solution: You deploy Office Professional Plus 2016.
+Does the solution meet the goal?
+- Yes
+* No
+
+#QUESTION
+You have been tasked with deploying Microsoft Office to company using a subscription-based licensing model.
+The version of Office you deploy should allow for Office application settings to be enforced via group policy.
+Solution: You deploy Office Home and Business 2016.
+Does the solution meet the goal?
+- Yes
+* No
+
+#QUESTION
+You have been tasked with deploying Microsoft Office to company using a subscription-based licensing model.
+The version of Office you deploy should allow for Office application settings to be enforced via group policy.
+Solution: You deploy Office 365 ProPlus.
+Does the solution meet the goal?
+* Yes
+- No
+
+#QUESTION
+Your company has a Microsoft Office 365 subscription.
+As an administrator for this subscription, you have been tasked with assigning Microsoft 365 licenses to users in a department where audio-conferencing is not required. The department does, however, require office desktop products to complete tasks.
+Which of the following is the license that would help you achieve this?
+* Office 365 ProPlus
+- Microsoft 365 E1
+- Office 365 E3
+- Office 365 E5
+
+#QUESTION
+Your company has a Microsoft Office 365 subscription.
+As an administrator for this subscription, you have been tasked with assigning Microsoft 365 licenses for a department where users need to collaborate with other users and also check their job schedules on a weekly basis. The department does not, however, require office desktop products to complete tasks.
+Which of the following is the license that would help you achieve this?
+* Office 365 F1
+- Microsoft 365 E1
+- Office 365 E3
+- Office 365 E5
+
+#QUESTION
+You are implementing cloud services.
+Choos the correct Answers
+* Exchange Online integrated with on-premises Skype for Business Server Software as a service (SaaS)
+* Custom web and mobile application securely connected to an on-premises data store Infrastructure as a service (laaS)
+* Server-based workloads on a virtual machine connected to an on-premises nework Platform as a service (PaaS) 
+
+#QUESTION
+You need to identify which Microsoft platforms provide hybrid capabilities for migrating from an on-premises deployment.
+Which two platforms provide hybrid capabilities for migration? Each correct answer provides a complete solution.
+NOTE: Each correct selection is worth one point.
+* Microsoft Skype for Business
+- Microsoft Yammer
+* Microsoft Exchange
+- Microsoft Teams
 
-#QUESTION
-What is the purpose of example question 22?
-* Correct answer 22A
-- Wrong answer 22B
-- Wrong answer 22C
-- Wrong answer 22D
-
-#QUESTION
-What is the purpose of example question 23?
-* Correct answer 23A
-- Wrong answer 23B
-- Wrong answer 23C
-- Wrong answer 23D
-
-#QUESTION
-What is the purpose of example question 24?
-* Correct answer 24A
-- Wrong answer 24B
-- Wrong answer 24C
-- Wrong answer 24D
-
-#QUESTION
-What is the purpose of example question 25?
-* Correct answer 25A
-- Wrong answer 25B
-- Wrong answer 25C
-- Wrong answer 25D
-
-#QUESTION
-What is the purpose of example question 26?
-* Correct answer 26A
-- Wrong answer 26B
-- Wrong answer 26C
-- Wrong answer 26D
-
-#QUESTION
-What is the purpose of example question 27?
-* Correct answer 27A
-- Wrong answer 27B
-- Wrong answer 27C
-- Wrong answer 27D
-
-#QUESTION
-What is the purpose of example question 28?
-* Correct answer 28A
-- Wrong answer 28B
-- Wrong answer 28C
-- Wrong answer 28D
-
-#QUESTION
-What is the purpose of example question 29?
-* Correct answer 29A
-- Wrong answer 29B
-- Wrong answer 29C
-- Wrong answer 29D
-
-#QUESTION
-What is the purpose of example question 30?
-* Correct answer 30A
-- Wrong answer 30B
-- Wrong answer 30C
-- Wrong answer 30D
-
-#QUESTION
-What is the purpose of example question 31?
-* Correct answer 31A
-- Wrong answer 31B
-- Wrong answer 31C
-- Wrong answer 31D
-
-#QUESTION
-What is the purpose of example question 32?
-* Correct answer 32A
-- Wrong answer 32B
-- Wrong answer 32C
-- Wrong answer 32D
-
-#QUESTION
-What is the purpose of example question 33?
-* Correct answer 33A
-- Wrong answer 33B
-- Wrong answer 33C
-- Wrong answer 33D
-
-#QUESTION
-What is the purpose of example question 34?
-* Correct answer 34A
-- Wrong answer 34B
-- Wrong answer 34C
-- Wrong answer 34D
-
-#QUESTION
-What is the purpose of example question 35?
-* Correct answer 35A
-- Wrong answer 35B
-- Wrong answer 35C
-- Wrong answer 35D
-
-#QUESTION
-What is the purpose of example question 36?
-* Correct answer 36A
-- Wrong answer 36B
-- Wrong answer 36C
-- Wrong answer 36D
-
-#QUESTION
-What is the purpose of example question 37?
-* Correct answer 37A
-- Wrong answer 37B
-- Wrong answer 37C
-- Wrong answer 37D
-
-#QUESTION
-What is the purpose of example question 38?
-* Correct answer 38A
-- Wrong answer 38B
-- Wrong answer 38C
-- Wrong answer 38D
-
-#QUESTION
-What is the purpose of example question 39?
-* Correct answer 39A
-- Wrong answer 39B
-- Wrong answer 39C
-- Wrong answer 39D
-
-#QUESTION
-What is the purpose of example question 40?
-* Correct answer 40A
-- Wrong answer 40B
-- Wrong answer 40C
-- Wrong answer 40D
-
-#QUESTION
-What is the purpose of example question 41?
-* Correct answer 41A
-- Wrong answer 41B
-- Wrong answer 41C
-- Wrong answer 41D
-
-#QUESTION
-What is the purpose of example question 42?
-* Correct answer 42A
-- Wrong answer 42B
-- Wrong answer 42C
-- Wrong answer 42D
-
-#QUESTION
-What is the purpose of example question 43?
-* Correct answer 43A
-- Wrong answer 43B
-- Wrong answer 43C
-- Wrong answer 43D
-
-#QUESTION
-What is the purpose of example question 44?
-* Correct answer 44A
-- Wrong answer 44B
-- Wrong answer 44C
-- Wrong answer 44D
-
-#QUESTION
-What is the purpose of example question 45?
-* Correct answer 45A
-- Wrong answer 45B
-- Wrong answer 45C
-- Wrong answer 45D
-
-#QUESTION
-What is the purpose of example question 46?
-* Correct answer 46A
-- Wrong answer 46B
-- Wrong answer 46C
-- Wrong answer 46D
-
-#QUESTION
-What is the purpose of example question 47?
-* Correct answer 47A
-- Wrong answer 47B
-- Wrong answer 47C
-- Wrong answer 47D
-
-#QUESTION
-What is the purpose of example question 48?
-* Correct answer 48A
-- Wrong answer 48B
-- Wrong answer 48C
-- Wrong answer 48D
-
-#QUESTION
-What is the purpose of example question 49?
-* Correct answer 49A
-- Wrong answer 49B
-- Wrong answer 49C
-- Wrong answer 49D
-
-#QUESTION
-What is the purpose of example question 50?
-* Correct answer 50A
-- Wrong answer 50B
-- Wrong answer 50C
-- Wrong answer 50D
-
-#QUESTION
-What is the purpose of example question 51?
-* Correct answer 51A
-- Wrong answer 51B
-- Wrong answer 51C
-- Wrong answer 51D
-
-#QUESTION
-What is the purpose of example question 52?
-* Correct answer 52A
-- Wrong answer 52B
-- Wrong answer 52C
-- Wrong answer 52D
-
-#QUESTION
-What is the purpose of example question 53?
-* Correct answer 53A
-- Wrong answer 53B
-- Wrong answer 53C
-- Wrong answer 53D
-
-#QUESTION
-What is the purpose of example question 54?
-* Correct answer 54A
-- Wrong answer 54B
-- Wrong answer 54C
-- Wrong answer 54D
-
-#QUESTION
-What is the purpose of example question 55?
-* Correct answer 55A
-- Wrong answer 55B
-- Wrong answer 55C
-- Wrong answer 55D
-
-#QUESTION
-What is the purpose of example question 56?
-* Correct answer 56A
-- Wrong answer 56B
-- Wrong answer 56C
-- Wrong answer 56D
-
-#QUESTION
-What is the purpose of example question 57?
-* Correct answer 57A
-- Wrong answer 57B
-- Wrong answer 57C
-- Wrong answer 57D
-
-#QUESTION
-What is the purpose of example question 58?
-* Correct answer 58A
-- Wrong answer 58B
-- Wrong answer 58C
-- Wrong answer 58D
-
-#QUESTION
-What is the purpose of example question 59?
-* Correct answer 59A
-- Wrong answer 59B
-- Wrong answer 59C
-- Wrong answer 59D
-
-#QUESTION
-What is the purpose of example question 60?
-* Correct answer 60A
-- Wrong answer 60B
-- Wrong answer 60C
-- Wrong answer 60D
-
-#QUESTION
-What is the purpose of example question 61?
-* Correct answer 61A
-- Wrong answer 61B
-- Wrong answer 61C
-- Wrong answer 61D
-
-#QUESTION
-What is the purpose of example question 62?
-* Correct answer 62A
-- Wrong answer 62B
-- Wrong answer 62C
-- Wrong answer 62D
-
-#QUESTION
-What is the purpose of example question 63?
-* Correct answer 63A
-- Wrong answer 63B
-- Wrong answer 63C
-- Wrong answer 63D
-
-#QUESTION
-What is the purpose of example question 64?
-* Correct answer 64A
-- Wrong answer 64B
-- Wrong answer 64C
-- Wrong answer 64D
-
-#QUESTION
-What is the purpose of example question 65?
-* Correct answer 65A
-- Wrong answer 65B
-- Wrong answer 65C
-- Wrong answer 65D
-
-#QUESTION
-What is the purpose of example question 66?
-* Correct answer 66A
-- Wrong answer 66B
-- Wrong answer 66C
-- Wrong answer 66D
-
-#QUESTION
-What is the purpose of example question 67?
-* Correct answer 67A
-- Wrong answer 67B
-- Wrong answer 67C
-- Wrong answer 67D
-
-#QUESTION
-What is the purpose of example question 68?
-* Correct answer 68A
-- Wrong answer 68B
-- Wrong answer 68C
-- Wrong answer 68D
-
-#QUESTION
-What is the purpose of example question 69?
-* Correct answer 69A
-- Wrong answer 69B
-- Wrong answer 69C
-- Wrong answer 69D
-
-#QUESTION
-What is the purpose of example question 70?
-* Correct answer 70A
-- Wrong answer 70B
-- Wrong answer 70C
-- Wrong answer 70D
-
-#QUESTION
-What is the purpose of example question 71?
-* Correct answer 71A
-- Wrong answer 71B
-- Wrong answer 71C
-- Wrong answer 71D
-
-#QUESTION
-What is the purpose of example question 72?
-* Correct answer 72A
-- Wrong answer 72B
-- Wrong answer 72C
-- Wrong answer 72D
-
-#QUESTION
-What is the purpose of example question 73?
-* Correct answer 73A
-- Wrong answer 73B
-- Wrong answer 73C
-- Wrong answer 73D
-
-#QUESTION
-What is the purpose of example question 74?
-* Correct answer 74A
-- Wrong answer 74B
-- Wrong answer 74C
-- Wrong answer 74D
-
-#QUESTION
-What is the purpose of example question 75?
-* Correct answer 75A
-- Wrong answer 75B
-- Wrong answer 75C
-- Wrong answer 75D
-
-#QUESTION
-What is the purpose of example question 76?
-* Correct answer 76A
-- Wrong answer 76B
-- Wrong answer 76C
-- Wrong answer 76D
-
-#QUESTION
-What is the purpose of example question 77?
-* Correct answer 77A
-- Wrong answer 77B
-- Wrong answer 77C
-- Wrong answer 77D
-
-#QUESTION
-What is the purpose of example question 78?
-* Correct answer 78A
-- Wrong answer 78B
-- Wrong answer 78C
-- Wrong answer 78D
-
-#QUESTION
-What is the purpose of example question 79?
-* Correct answer 79A
-- Wrong answer 79B
-- Wrong answer 79C
-- Wrong answer 79D
-
-#QUESTION
-What is the purpose of example question 80?
-* Correct answer 80A
-- Wrong answer 80B
-- Wrong answer 80C
-- Wrong answer 80D
-
-#QUESTION
-What is the purpose of example question 81?
-* Correct answer 81A
-- Wrong answer 81B
-- Wrong answer 81C
-- Wrong answer 81D
-
-#QUESTION
-What is the purpose of example question 82?
-* Correct answer 82A
-- Wrong answer 82B
-- Wrong answer 82C
-- Wrong answer 82D
-
-#QUESTION
-What is the purpose of example question 83?
-* Correct answer 83A
-- Wrong answer 83B
-- Wrong answer 83C
-- Wrong answer 83D
-
-#QUESTION
-What is the purpose of example question 84?
-* Correct answer 84A
-- Wrong answer 84B
-- Wrong answer 84C
-- Wrong answer 84D
-
-#QUESTION
-What is the purpose of example question 85?
-* Correct answer 85A
-- Wrong answer 85B
-- Wrong answer 85C
-- Wrong answer 85D
-
-#QUESTION
-What is the purpose of example question 86?
-* Correct answer 86A
-- Wrong answer 86B
-- Wrong answer 86C
-- Wrong answer 86D
-
-#QUESTION
-What is the purpose of example question 87?
-* Correct answer 87A
-- Wrong answer 87B
-- Wrong answer 87C
-- Wrong answer 87D
-
-#QUESTION
-What is the purpose of example question 88?
-* Correct answer 88A
-- Wrong answer 88B
-- Wrong answer 88C
-- Wrong answer 88D
-
-#QUESTION
-What is the purpose of example question 89?
-* Correct answer 89A
-- Wrong answer 89B
-- Wrong answer 89C
-- Wrong answer 89D
-
-#QUESTION
-What is the purpose of example question 90?
-* Correct answer 90A
-- Wrong answer 90B
-- Wrong answer 90C
-- Wrong answer 90D
-
-#QUESTION
-What is the purpose of example question 91?
-* Correct answer 91A
-- Wrong answer 91B
-- Wrong answer 91C
-- Wrong answer 91D
-
-#QUESTION
-What is the purpose of example question 92?
-* Correct answer 92A
-- Wrong answer 92B
-- Wrong answer 92C
-- Wrong answer 92D
-
-#QUESTION
-What is the purpose of example question 93?
-* Correct answer 93A
-- Wrong answer 93B
-- Wrong answer 93C
-- Wrong answer 93D
-
-#QUESTION
-What is the purpose of example question 94?
-* Correct answer 94A
-- Wrong answer 94B
-- Wrong answer 94C
-- Wrong answer 94D
-
-#QUESTION
-What is the purpose of example question 95?
-* Correct answer 95A
-- Wrong answer 95B
-- Wrong answer 95C
-- Wrong answer 95D
-
-#QUESTION
-What is the purpose of example question 96?
-* Correct answer 96A
-- Wrong answer 96B
-- Wrong answer 96C
-- Wrong answer 96D
-
-#QUESTION
-What is the purpose of example question 97?
-* Correct answer 97A
-- Wrong answer 97B
-- Wrong answer 97C
-- Wrong answer 97D
-
-#QUESTION
-What is the purpose of example question 98?
-* Correct answer 98A
-- Wrong answer 98B
-- Wrong answer 98C
-- Wrong answer 98D
-
-#QUESTION
-What is the purpose of example question 99?
-* Correct answer 99A
-- Wrong answer 99B
-- Wrong answer 99C
-- Wrong answer 99D
-
-#QUESTION
-What is the purpose of example question 100?
-* Correct answer 100A
-- Wrong answer 100B
-- Wrong answer 100C
-- Wrong answer 100D
