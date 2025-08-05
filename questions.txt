@@ -1,0 +1,9 @@
+#QUESTION
+Your company plans to migrate from on-premises to a hybrid cloud deployment.
+You are required to make sure that the Microsoft platform used for the migration offers hybrid abilities.
+Which of the following options meet the requirement?
+- Microsoft Office Delve
+* Microsoft SharePoint
+- Microsoft Yammer
+* Microsoft Skype for Business
+- Microsoft Teams

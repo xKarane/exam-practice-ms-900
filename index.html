@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MS Exam Practice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>MS Exam Practice</h1>
+    <div id="start-screen">
+      <button onclick="startQuiz()">Start New Quiz</button>
+    </div>
+    <div id="quiz-screen" class="hidden">
+      <div id="question-number"></div>
+      <div id="question-text"></div>
+      <div id="answers"></div>
+      <button id="check-button" onclick="checkAnswer()">Check Answer</button>
+      <button id="next-button" class="hidden" onclick="nextQuestion()">Next</button>
+    </div>
+    <div id="result-screen" class="hidden">
+      <h2>Quiz Summary</h2>
+      <p id="result-score"></p>
+      <p id="result-time"></p>
+      <button onclick="location.reload()">Start Again</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
